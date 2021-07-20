@@ -139,7 +139,7 @@ export default {
           .auth()
           .signOut()
           .then(() => {
-            this.$router.replace({name: "product"});
+            this.$router.push({path: '/'});
           });
     }
   }
